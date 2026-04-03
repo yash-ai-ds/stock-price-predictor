@@ -1,0 +1,19 @@
+# Ignore the large generated dataset so GitHub doesn't block the upload
+stock_data.csv
+
+# Standard python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor and OS settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Virtual environment if added later
+venv/
+env/
+.env
